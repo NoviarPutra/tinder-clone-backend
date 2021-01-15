@@ -36,5 +36,5 @@ app.get("/tinder/cards", (req, res) => {
 });
 // Listener
 app.listen(port, () => {
-  console.log(`listening on localhost : https://localhost/${port}`);
+  console.log(`listening on localhost : http://localhost:${port}`);
 });
